@@ -62,5 +62,5 @@ header .header-wrapper ul li button {
 }
 
 header .header-wrapper ul li button:hover {
-    background-color: #952e01;
+    background-color: var(--dark-secondary-color);
 }
