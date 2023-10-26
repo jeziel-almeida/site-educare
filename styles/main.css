@@ -139,6 +139,12 @@ main .community-section button {
     font-weight: 700;
     border: none;
     border-radius: 10px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+main .community-section button:hover {
+    background-color: var(--secondary-color);
 }
 
 main .community-section .main-image {
