@@ -92,4 +92,81 @@ main .register-section button {
     font-weight: 700;
     background-color: var(--secondary-color);
     color: white;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+main .register-section button:hover {
+    background-color: var(--dark-secondary-color);
+}
+
+main .community-section {
+    width: 85%;
+    height: 780px;
+    margin: 0 auto;
+    margin-top: 16rem;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+
+main .community-section .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+main .community-section h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+main .community-section p {
+    font-size: 20px;
+    color: var(--light-text);
+    margin-bottom: 3rem;
+}
+
+main .community-section button {
+    background-color: var(--light-orange);
+    width: 273px;
+    height: 54px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+}
+
+main .community-section .main-image {
+    position: absolute;
+    bottom: 80px;
+    right: -45px;
+}
+
+main .community-section .elipse-1 {
+    position: absolute;
+    left: 3%;
+    top: 40%;
+}
+
+main .community-section .elipse-2 {
+    position: absolute;
+    top: -10%;
+    left: 55%;
+}
+
+main .community-section .elipse-3 {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+}
+
+main .community-section .elipse-4 {
+    position: absolute;
+    right: 5%;
+    top: 10%;
 }
